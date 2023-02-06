@@ -1,0 +1,132 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Fredericka_the_Great;
+    src: url('../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.plant_area {
+    background-image: url('../img/plant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 80vh;
+    display: block;
+}
+
+.logo {
+    font-family: Fredericka_the_Great;
+    color: white;
+    font-size: 24px;
+    line-height: 1, 5;
+    text-align: left;
+    padding: 20px;
+    margin: 15px 300px 0px 50px;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        font-size: 14px;
+    }
+}
+
+.welcome {
+    color: white;
+    Font-family: Fredericka_the_Great;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .welcome {
+        font-size: 14px;
+    }
+}
+
+.jungle {
+    color: white;
+    Font-family: Fredericka_the_Great;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+
+}
+
+@media (max-width: 767px) {
+    .jungle {
+        font-size: 14px;
+    }
+}
+
+.plantText {
+    color: white;
+    font-family: OpenSans;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 50% 50%;
+    /*width: 30%;
+    margin: 0px 0px 5px 520px;
+    display: block;*/
+}
+
+@media (max-width: 767px) {
+    .plantText {
+        font-size: 14px;
+    }
+}
+/*read more*/
+main section div a{
+    color: white;
+    font-family: OpenSans;
+    Font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 50% 50%;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 5px 500px;
+}
+
+main section article section{
+    display:block;
+    color: white;
+    width: 60px;
+    float: right;
+    text-align:center:
+}
+
+.white_area{
+    text-align: center;
+    width: 600px;
+    padding: 100px 500px;
+}
+
+section article button{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    width: 120px;
+    padding: 10px 20px;
+}
+
+.bottom{
+    background-color: rgb(36, 36, 77);
+
+}
